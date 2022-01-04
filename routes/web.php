@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\MainPagesControlle;
+use App\Http\Controllers\ContactFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,3 +34,7 @@ Route::get('/admin/main', [App\Http\Controllers\MainPagesController::class, 'ind
 Route::put('/admin/main', [App\Http\Controllers\MainPagesController::class, 'update'])->name('admin.main.update');
 Route::get('/admin/services/create', [App\Http\Controllers\ServicePagesController::class, 'create'])->name('admin.main.create');
 Route::get('/admin/services/list', [App\Http\Controllers\ServicePagesController::class, 'list'])->name('admin.main.list');
+
+Route::post('/contact',[App\Http\Controllers\ContactFormController::class, 'store'])->name('contact.store');
+
+Auth::routes();
