@@ -15,10 +15,6 @@ use App\Http\Controllers\MainPagesControlle;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function(){
     return view('pages.index');
 });
@@ -35,3 +31,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/admin/dashboard', [App\Http\Controllers\PagesController::class, 'dashboard'])->name('admin.dashboard');
 Route::get('/admin/main', [App\Http\Controllers\MainPagesController::class, 'index'])->name('admin.main');
 Route::put('/admin/main', [App\Http\Controllers\MainPagesController::class, 'update'])->name('admin.main.update');
+Route::get('/admin/services/create', [App\Http\Controllers\ServicePagesController::class, 'create'])->name('admin.main.create');
+Route::get('/admin/services/list', [App\Http\Controllers\ServicePagesController::class, 'list'])->name('admin.main.list');
