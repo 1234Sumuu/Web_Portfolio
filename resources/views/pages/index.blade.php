@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="masthead-subheading">Welcome To my Website</div>
                 <div class="masthead-heading text-uppercase"> It's nice to See You!</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Hire ME</a>
             </div>
         </header>
 
@@ -111,7 +111,6 @@
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="https://www.logodesignteam.com/images/portfolio-images/ecommerce-websites-logo-design/ecommerce-websites-logo-design20.jpg" alt="..." />
-                                <a href="https://github.com/1234Sumuu/Online-Shop">Go to the source of this project</a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Online Shop</div>
@@ -126,7 +125,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                                <img class="img-fluid" src="https://image.shutterstock.com/image-vector/electronic-commerce-logo-template-260nw-611143775.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Ecomm shop</div>
@@ -136,19 +135,19 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 4-->
-                        {{-- <div class="portfolio-item">
+                        <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                                <img class="img-fluid" src="data:image/png;base64,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" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                                <div class="portfolio-caption-heading">Laravel CRUD</div>
+                                <div class="portfolio-caption-subheading text-muted">Add, Edit, Delete, Insert</div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
 
                         <!-- Portfolio item 5-->
@@ -160,7 +159,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
+                                <div class="portfolio-caption-heading">Up comming Ideas</div>
                                 <div class="portfolio-caption-subheading text-muted">Website Design</div>
                             </div>
                         </div>
@@ -190,7 +189,17 @@
                     <h2 class="section-heading text-uppercase">About</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <ul class="timeline">
+
+                <div class="media position-relative row text-center">
+                    <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx_wdqivQ3FSP_KCqHW06NioHu6KcnzXCPCA&usqp=CAU" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0">We provide faxible Services..</h5>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                      <a href="https://github.com/1234Sumuu" class="stretched-link">Learn More</a>
+                    </div>
+                  </div>
+
+                {{-- <ul class="timeline">
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
                         <div class="timeline-panel">
@@ -242,7 +251,7 @@
                             </h4>
                         </div>
                     </li>
-                </ul>
+                </ul> --}}
             </div>
         </section>
         <!-- Team-->
@@ -302,9 +311,9 @@
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
+                    {{-- <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -368,7 +377,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase " id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
         </section>
@@ -376,7 +385,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -447,7 +456,7 @@
                                         </li>
                                         <li>
                                             <strong>Category:</strong>
-                                            Graphic Design
+                                            Web design
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -483,7 +492,7 @@
                                         </li>
                                         <li>
                                             <strong>Category:</strong>
-                                            Identity
+                                            Introduce
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -507,15 +516,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Lara-Crud</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto"  src="data:image/png;base64,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" alt="..." />
+                                    <a href="https://github.com/1234Sumuu/laravelCrud">Go to the project source</a>
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
-                                        <li>
+                                        {{-- <li>
                                             <strong>Client:</strong>
                                             Lines
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <strong>Category:</strong>
                                             Branding
@@ -549,7 +559,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
-                                            Southwest
+                                            Upcomming projectes
                                         </li>
                                         <li>
                                             <strong>Category:</strong>
